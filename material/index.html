@@ -1,0 +1,208 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css" type="text/css">
+  <link rel="stylesheet" href="form.css" type="text/css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Material Form - Service public de Wallonie – Fiscalité</title>
+</head>
+
+<body>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js" type="text/javascript"></script>
+  <script src="init.js"></script>
+  <div class="intro deep-orange lighten-2 z-depth-1">
+    <h1 class="grey-text text-lighten-5">Déclaration à la taxe de circulation sur les véhicules</h1>
+  </div>
+  <form class="container">
+
+      <div class="col s12">
+        <ul class="tabs">
+          <li class="tab col s3"><a class="active" title="Identification du redevable" href="#redevable">Redevable</a></li>
+          <li class="tab col s3" ><a href="#vehicule" title="Identification du v&eacute;hicule">V&eacute;hicule</a></li>
+          <li class="tab col s3" ><a href="#imposition" title="Renseignements relatifs à la base d'imposition">Base d'imposition</a></li>
+          <li class="tab col s3" ><a href="#exemption">Exemptions et réductions</a></li>
+          <li >
+            <div class="indicator"></div>
+          </li>
+        </ul>
+
+        <div id="redevable" >
+           <div class="row">
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Nom ou Raison Sociale</label>
+            </div>
+           </div>
+
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="first_name" type="text" class="validate">
+              <label for="first_name">Prénom</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="nationalNumber" type="text" class="validate">
+              <label for="nationalNumber">No Registre National ou d’Entreprise</label>
+            </div>
+          </div>
+
+
+
+        <fieldset id="address">
+          <legend>Adresse du domicile ou du siège social</legend>
+          <div class="row">
+            <div class="input-field col s8">
+              <input id="streetName" type="text" class="validate">
+              <label for="streetName" class="active">Rue</label>
+            </div>
+            <div class="input-field col s2">
+              <input id="streetNumber" type="text" class="validate">
+              <label for="streetNumber" class="active">Numéro</label>
+            </div>
+            <div class="input-field col s2">
+              <input id="streetNumberExtension" type="text" class="validate">
+              <label for="streetNumberExtension" class="active">Boîte</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s2">
+              <input id="postCode" type="text" class="validate">
+              <label for="postCode">Code postal</label>
+            </div>
+            <div class="input-field col s10">
+              <input id="locality" type="text" class="validate">
+              <label for="locality">Localité</label>
+            </div>
+          </div>
+       </fieldset>
+
+       <fieldset id="address">
+         <legend>Numéro de compte bancaire</legend>
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="accountIban" type="text" class="validate">
+              <label for="accountIban">IBAN</label>
+            </div>
+            <div class="input-field col s2">
+              <input id="accountBic" type="text" class="validate">
+              <label for="accountBic">Code bic</label>
+            </div>
+          </div>
+       </fieldset>
+
+      </div>
+
+      <div id="vehicule" class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="plateNumber" type="text" class="validate" pattern="[A-Z]{3}[0-9]{4}">
+              <label for="plateNumber">Plaque d’immatriculation</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="chassisNumber" type="text" class="validate">
+              <label for="chassisNumber">Numéro de châssis</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="model" type="text" class="validate">
+              <label for="model">Marque Modèle/Type</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="firstImmatriculationDate" type="date" class="datepicker">
+              <label for="firstImmatriculationDate">Date de la première Immatriculation</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="firstUsageDate" type="date" class="datepicker">
+              <label for="firstUsageDate">Date mise en usage du véhicule</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="endUsageDate" type="date" class="datepicker">
+              <label for="endUsageDate">Date mise hors d’usage du véhicule*</label>
+            </div>
+          </div>
+      </div>
+
+      <div id="imposition" class="col s12">
+        Code Genre et libellé DIV2
+        Suspension
+        pneumatique3 OUI – NON
+        Carburant4
+        Essence Mazout
+        L.P.G.
+        Autre : …………………
+        Norme euro 0 1 2 3 4 5 6
+        C.V. fiscaux4
+        Essence Mazout L.P.G. Autre
+        Masse Maximale Autorisée (M.M.A.) kg Nb. Cylindres
+        M.M.A. remorque/semi-remorque kg Alésage mm
+        Nb essieux véhicule tractant Course mm
+        Nb essieux remorque(s)5
+        0 1 2 3 4
+        autre : ……..
+        Poids kg
+      </div>
+
+      <div id="exemption" class="col s5">
+        <div class="row">
+         <div class="input-field col s3">
+          <input type="checkbox" id="circulationTaxExempted" data-related-item="circulationTaxExemptedJustification"/>
+          <label for="circulationTaxExempted">Exemption Taxe de circulation</label>
+         </div>
+         <div class="input-field col s6">
+          <input type="text" id="circulationTaxExemptedJustification" />
+          <label for="circulationTaxExemptedJustification">Justification</label>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="input-field col s3">
+            <input type="checkbox" id="complementaryTaxExempted" data-related-item="complementaryTaxExemptedJustification"/>
+            <label for="complementaryTaxExempted">Taxe complémentaire de circulation</label>
+          </div>
+          <div class="input-field col s6">
+            <input type="text" id="complementaryTaxExemptedJustification" />
+            <label for="complementaryTaxExemptedJustification">Justification</label>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="input-field col s3">
+            <input type="checkbox" id="decime" data-related-item="decimeJustification"/>
+            <label for="decime">Décime</label>
+          </div>
+          <div class="input-field col s6">
+            <input type="text" id="decimeJustification" />
+            <label for="decimeJustification">Justification</label>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="input-field col s3">
+            <input type="checkbox" id="portExemption" data-related-item="portExemptionJustification"/>
+            <label for="portExemption">Réduction port</label>
+          </div>
+          <div class="input-field col s6">
+            <input type="text" id="portExemptionJustification" />
+            <label for="portExemptionJustification">Justification</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </form>
+</body>
+</html>

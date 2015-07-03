@@ -1,0 +1,27 @@
+
+legend {
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  color: #94C9A9;
+}
+
+.intro
+{
+    text-align: center;
+}
+
+.tabs .tab a {
+  color: #4F759B;
+}
+
+.deep-orange.lighten-2 {
+  background-color: #777DA7 !important;
+}
+
+fieldset {
+  border: none;
+  border-top: 5px solid #94C9A9;
+}
+
+
