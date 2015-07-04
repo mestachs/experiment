@@ -1,9 +1,9 @@
 
 legend {
   text-align: center;
-  padding: 10px;
   text-transform: uppercase;
   color: #94C9A9;
+  padding: 5;
 }
 
 .intro
@@ -21,7 +21,9 @@ legend {
 
 fieldset {
   border: none;
-  border-top: 5px solid #94C9A9;
+  border-top: 2px dotted #94C9A9;
+  padding: 0;
+
 }
 
 
