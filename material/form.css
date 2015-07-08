@@ -1,14 +1,11 @@
 
 legend {
-  text-align: center;
-  text-transform: uppercase;
   color: #94C9A9;
-  padding: 5;
 }
 
 .intro
 {
-    text-align: center;
+  text-align: center;
 }
 
 .tabs .tab a {
@@ -21,9 +18,6 @@ legend {
 
 fieldset {
   border: none;
-  border-top: 2px dotted #94C9A9;
-  padding: 0;
-
 }
 
 

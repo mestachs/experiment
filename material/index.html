@@ -1,6 +1,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css" type="text/css">
   <link rel="stylesheet" href="form.css" type="text/css">
   <!--Let browser know website is optimized for mobile-->
@@ -28,8 +29,16 @@
             <div class="indicator"></div>
           </li>
         </ul>
-
+      <br>
         <div id="redevable" >
+         <fieldset id="address">
+
+           <legend>
+             <div class="row">
+               <i class="material-icons col">perm_identity</i>
+               <span class="col">Identification</span>
+             </div>
+           </legend>
            <div class="row">
             <div class="input-field col s6">
               <input id="last_name" type="text" class="validate">
@@ -50,11 +59,16 @@
               <label for="nationalNumber">No Registre National ou d’Entreprise</label>
             </div>
           </div>
-
+        </fieldset>
 
 
         <fieldset id="address">
-          <legend>Adresse du domicile ou du siège social</legend>
+          <legend>
+            <div class="row">
+              <i class="material-icons col">location_on</i>
+              <span class="col">Adresse du domicile ou du siège social</span>
+            </div>
+          </legend>
           <div class="row">
             <div class="input-field col s8">
               <input id="streetName" type="text" class="validate">
@@ -82,7 +96,12 @@
        </fieldset>
 
        <fieldset id="address">
-         <legend>Numéro de compte bancaire</legend>
+          <legend>
+            <div class="row">
+              <i class="material-icons col">payment</i>
+              <span class="col">Numéro de compte bancaire</span>
+            </div>
+          </legend>
           <div class="row">
             <div class="input-field col s6">
               <input id="accountIban" type="text" class="validate">
@@ -98,6 +117,14 @@
       </div>
 
       <div id="vehicule" class="col s12">
+        <fieldset>
+         <legend>
+            <div class="row">
+              <i class="material-icons col">label</i>
+              <span class="col">Identification du véhicule</span>
+            </div>
+         </legend>
+
           <div class="row">
             <div class="input-field col s6">
               <input id="plateNumber" type="text" class="validate" pattern="[A-Z]{3}[0-9]{4}">
@@ -116,6 +143,14 @@
               <label for="model">Marque Modèle/Type</label>
             </div>
           </div>
+      </fieldset>
+      <fieldset>
+          <legend>
+            <div class="row">
+              <i class="material-icons col">label</i>
+              <span class="col">Dates clés</span>
+            </div>
+         </legend>
           <div class="row">
             <div class="input-field col s6">
               <input id="firstImmatriculationDate" type="date" class="datepicker">
@@ -134,27 +169,149 @@
               <label for="endUsageDate">Date mise hors d’usage du véhicule*</label>
             </div>
           </div>
+      </fieldset>
       </div>
 
       <div id="imposition" class="col s12">
-        Code Genre et libellé DIV2
-        Suspension
-        pneumatique3 OUI – NON
-        Carburant4
-        Essence Mazout
-        L.P.G.
-        Autre : …………………
-        Norme euro 0 1 2 3 4 5 6
-        C.V. fiscaux4
-        Essence Mazout L.P.G. Autre
-        Masse Maximale Autorisée (M.M.A.) kg Nb. Cylindres
-        M.M.A. remorque/semi-remorque kg Alésage mm
-        Nb essieux véhicule tractant Course mm
-        Nb essieux remorque(s)5
-        0 1 2 3 4
-        autre : ……..
-        Poids kg
+        <fieldset class="row">
+          <div class="input-field col s6">
+            <select>
+              <option value="" disabled selected>Choose your option</option>
+              <option value="AA">BERLINE</option>
+              <option value="AB">VOITURE À HAYON ARRIÈRE</option>
+              <option value="AC">BREAK</option>
+              <option value="AD">COUPÉ</option>
+              <option value="AE">CABRIOLET</option>
+              <option value="AF">VEHICULE À USAGES MULTIPLES</option>
+              <option value="AR">REMORQUE NORMALE</option>
+              <option value="AZ">AMBULANCE (OLD)</option>
+              <option value="BC">AUTOBUS OU AUTOCAR</option>
+              <option value="BF">VÉHICULE SERVICE INCENDIE (OLD)</option>
+              <option value="BP">VÉHICULE LÉGER BLINDÉ (OLD)</option>
+              <option value="OS">SEMI-REMORQUE NORMALE inférieur à 4000KG</option>
+              <option value="BR">REMORQUE POUR BATEAUX</option>
+              <option value="CL">CORBILLARD (OLD)</option>
+              <option value="CO">SEMI-REMORQUE CARAVANE</option>
+              <option value="CR">CARAVANE</option>
+              <option value="CT">CAMIONNETTE (OLD)</option>
+              <option value="CV">CAMION (+VEH INCENDIE)</option>
+              <option value="DT">DÉPANNEUSE</option>
+              <option value="SC">AMBULANCE</option>
+              <option value="FA">VEHICULE À USAGES MULTIPLES</option>
+              <option value="KG">VÉHICULE GRUE</option>
+              <option value="KM">FORAINS</option>
+              <option value="LS">VÉHICULE LENT MIXTE</option>
+              <option value="LT">CAMIONNETTE LENTE</option>
+              <option value="LV">VÉHICULE LENT</option>
+              <option value="M2">MOTOCYCLETTE (OLD)</option>
+              <option value="ML">MOTOCULTEUR</option>
+              <option value="MM">MOISSONNEUSE (OLD)</option>
+              <option value="MT">MATÉRIEL INDUSTRIEL</option>
+              <option value="OA">SEMI-REMORQUE LENTE</option>
+              <option value="OM">MINIBUS</option>
+              <option value="OR">REMORQUE OUTIL</option>
+              <option value="PA">ANCETRE</option>
+              <option value="PO">PORT</option>
+              <option value="PR">REMORQUE POUR PLANEURS</option>
+              <option value="RL">REMORQUE LENTE</option>
+              <option value="SA">AUTOCARAVANE</option>
+              <option value="SB">VÉHICULE BLINDÉ</option>
+              <option value="SD">CORBILLARD</option>
+              <option value="SF">VEHICULE SPECIALE</option>
+              <option value="SW">VOITURE MIXTE (OLD)</option>
+              <option value="TB">TROLLEYBUS</option>
+              <option value="TL">TRACTEUR AGRICOLE/SYLVICOLE</option>
+              <option value="TO">TRAIN TOURISTIQUE</option>
+              <option value="TP">ALL TYPES</option>
+              <option value="TR">TRACTEUR</option>
+              <option value="TT">VÉHICULE LENT (APRÈS TRANSF.)</option>
+              <option value="L1">CYCLOMOTEUR (A)</option>
+              <option value="L2">CYCLOMOTEUR (B)</option>
+              <option value="L3">MOTOCYCLETTE</option>
+              <option value="L4">MOTOCYCLETTE AVEC SIDECAR</option>
+              <option value="L5">TRICYCLE À MOTEUR</option>
+              <option value="L6">QUADRICYCLE À MOTEUR</option>
+              <option value="L7">QUADRICYCLE à MOTEUR</option>
+              <option value="LA">MATÉRIEL AGRICOLE</option>
+              <option value="LC">CAMION LENT</option>
+              <option value="VC">AUTOCARAVANE</option>
+              <option value="VP">VOITURE</option>
+            </select>
+            <label>Code Genre et libellé DIV2</label>
+          </div>
+        </fieldset>
+
+        <div class="row">
+         <div class="input-field col s3">
+          <input type="checkbox" id="pneumaticSuspension" data-related-item="circulationTaxExemptedJustification"/>
+          <label for="pneumaticSuspension">Suspension pneumatique</label>
+         </div>
+        </div>
+
+        <fieldset>
+          <legend>
+            <div class="row">
+              <i class="material-icons col">label</i>
+              <span class="col">Motorisation</span>
+            </div>
+          </legend>
+
+
+            <div class="row">
+             <div class="input-field s12">
+                <h6>Carburant</h6>
+                <div class="row">
+                  <div class="col s1">
+                    <input name="carburant" type="radio" id="carburantEssence"/>
+                    <label for="carburantEssence">Essence</label>
+                  </div>
+                  <div class="col s1">
+                    <input name="carburant" type="radio" id="carburantMazout" />
+                    <label for="test2">Mazout</label>
+                  </div>
+                  <div class="col s1">
+                    <input name="carburant" type="radio" id="carburantLPG" />
+                    <label for="test2">L.P.G</label>
+                  </div>
+                  <div class="col s1">
+                    <input name="carburant" type="radio" id="carburantOther" data-related-item="carburantOtherDescription"/>
+                    <label for="carburantOther">Autre</label>
+                  </div>
+                  <div class="input-field col s3">
+                    <input type="text" id="carburantOtherDescription" />
+                    <label for="carburantOtherDescription">description du carburant alternatif</label>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="row">
+             <h6>Norme Euro</h6>
+              <div class="col s1">
+                <input name="euronorme" type="radio" id="euroNorme1"/>
+                <label for="euroNorme1">1</label>
+              </div>
+              <div class="col s1">
+                <input name="euronorme" type="radio" id="euroNorme2"/>
+                <label for="euroNorme2">2</label>
+              </div>
+              <div class="col s1">
+                <input name="euronorme" type="radio" id="euroNorme3"/>
+                <label for="euroNorme3">3</label>
+              </div>
+              <div class="col s1">
+                <input name="euronorme" type="radio" id="euroNorme4"/>
+                <label for="euroNorme4">4</label>
+              </div>
+              <div class="col s1">
+                <input name="euronorme" type="radio" id="euroNorme5"/>
+                <label for="euroNorme5">5</label>
+              </div>
+            </div>
+        </fieldset>
       </div>
+
+
 
       <div id="exemption" class="col s5">
         <div class="row">
