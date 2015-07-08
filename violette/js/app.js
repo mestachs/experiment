@@ -58,7 +58,7 @@ var ondocready = function() {
 		    pickItem(1);
 		  }
 		}, times);
-		
+
 	});
 }
 
