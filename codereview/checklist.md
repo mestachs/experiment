@@ -60,7 +60,7 @@
     * duplicate, new unnecessary jars, test jars, duplicated classes
     * http://tattletale.jboss.org/
   * changelog/wiki/docker/ansible/... documentation/scripts updated
-  * security
+  * [secure](https://speakerdeck.com/mestachs/betatech-security-for-dummies?slide=38)
     * no clear vulnerabilities introduced or re-introduced
   * [load tested](https://speakerdeck.com/mestachs/gatling-load-testing-like-a-king) ?
     * resources leak (memory, connection, file descriptor, ...)
