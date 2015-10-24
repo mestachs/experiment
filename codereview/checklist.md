@@ -7,7 +7,7 @@
   * squint test, single screen test
   * no commented/test/debug/todo code left
   * follow guidelines/best practices depending of the technology reviewed
-     * [Java](http://google.github.io/styleguide/javaguide.html) : use sonar to enforce most of them
+     * [Java](http://google.github.io/styleguide/javaguide.html) : use sonar to [enforce most of them](https://mestachs.wordpress.com/2013/12/23/through-the-eyes-of-sonar-recap/)
      * [Javascript](https://github.com/airbnb/javascript/blob/master/README.md)
      * [JQuery](http://lab.abhinayrathore.com/jquery-standards/)
      * [Maven](https://mestachs.wordpress.com/2012/05/17/maven-best-practices/)
@@ -21,11 +21,11 @@
   * to prove it's working the unit tests, integration tests should be updated
     * test at the right level
     * self contained, short, independent
-    * follow SetupExerciseVerifyTearDown
-    * use assertj for meaningful error message
+    * follow [SetupExerciseVerifyTearDown](http://xunitpatterns.com/Four%20Phase%20Test.html)
+    * use [assertj](http://joel-costigliola.github.io/assertj/) for meaningful error message
     * not too much mocks (god class under test)
     * good coverage (is my production code tested), 
-    * good mutation coverage (do I have good asserts/tests)
+    * good [mutation coverage](http://pitest.org/) (do I have good asserts/tests ?)
     * good data coverage (unicode, long/short/various case/empty, null, multiline,... Integer.MAX - 1)
     * no ignored/commented test
     * no off-by-one errors (we often messup of 1 in index/ < vs <= /...)
@@ -43,7 +43,7 @@
 
 * **Better than before** ?
   * boyscout rule : "Always leave the campground cleaner than you found it."
-  * non regression or improvement in [sonar](http://www.sonarqube.org/), [PullReview](https://www.pullreview.com/),  [CodeClimate](https://codeclimate.com/),...
+  * non regression or improvement in [SonarQube](http://www.sonarqube.org/), [PullReview](https://www.pullreview.com/),  [CodeClimate](https://codeclimate.com/),...
   * new tests, better readable tests
 
 * **Production ready** ?
@@ -54,7 +54,7 @@
   * error handling :
     * close resources in finally
     * don't expose sensitive information to caller
-  * timeout, connection pool : ideally adjustable
+  * timeout, threadpool, connection pool : ideally adjustable
   * unexpected dependency (in WEB-INF/lib, Gemfile,...) ?
     * pom change, maven enforcer, pendantic pom enforcer
     * duplicate, new unnecessary jars, test jars, duplicated classes
