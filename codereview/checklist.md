@@ -8,7 +8,7 @@
   * no commented/test/debug/todo code left
   * follow guidelines/best practices depending of the technology reviewed
      * [Java](http://google.github.io/styleguide/javaguide.html) : use sonar to [enforce most of them](https://mestachs.wordpress.com/2013/12/23/through-the-eyes-of-sonar-recap/)
-     * [Javascript](https://github.com/airbnb/javascript/blob/master/README.md)
+     * [Javascript](https://github.com/airbnb/javascript/blob/master/README.md) : check [eslint](http://eslint.org/).
      * [JQuery](http://lab.abhinayrathore.com/jquery-standards/)
      * [Maven](https://mestachs.wordpress.com/2012/05/17/maven-best-practices/)
      * [Ruby](https://github.com/bbatsov/ruby-style-guide) (see rubocop or pullreview)
