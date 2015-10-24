@@ -26,7 +26,7 @@
     * not too much mocks (god class under test)
     * coverage (is my production code tested), mutation coverage (do I have good asserts/tests)
     * no ignored/commented test
-    * test with boundary case and boundary case -1/+1 (we often messup of 1 in index/comparison/...)
+    * off-by-one errors (we often messup of 1 in index/comparison/...)
   * no obvious bug : classcast, npe,...
   * efficient
     * select n+1, missing index,...
@@ -46,7 +46,7 @@
 * **Production ready** ?
   * encoding
     * utf-8
-  * exception logging
+  * exception logging with extra details
   * migration won't break (not null without default, too big table to update)
   * error handling :
     * close resources in finally
@@ -54,7 +54,7 @@
   * timeout, connection pool : ideally adjustable
   * unexpected dependency (in WEB-INF/lib, Gemfile,...) ?
     * pom change, maven enforcer, pendantic pom enforcer
-    * duplicate, new unnecessary jars, duplicated classes
+    * duplicate, new unnecessary jars, test jars, duplicated classes
     * http://tattletale.jboss.org/
   * changelog/wiki/docker/ansible/... documentation/scripts updated
   * security
