@@ -1,5 +1,5 @@
 
-* Readable and following standards ?
+* **Readable and following standards** ?
   * style, naming : variable/methods/class names
     * There are only two hard things in Computer Science: cache invalidation and naming things. -- Phil Karlton
     * if you can't find a name, it does perhaps too much
@@ -17,7 +17,7 @@
      * if a code base is completly written with another standard (Service/Manager/Repository/Bean/Model/Presenter/Controller/Resources/…) stay in this standard, be coherent.
      * If it’s really a pain plan with your team if it should really be migrated to new standard.
 
-* Minimal and working solution ?
+* **Minimal and working solution** ?
   * to prove it's working the unit tests, integration tests should be updated
     * test at the right level
     * self contained, short, independent
@@ -38,12 +38,12 @@
     * what is actually trying to be achieved, does it need to be done and is there a better (maybe completely different) way to do it
   * no duplication : follow the “three strikes” rule
 
-* Better than before ?
+* **Better than before** ?
   * boyscout rule : "Always leave the campground cleaner than you found it."
   * non regression or improvement in sonar/pullreview/codeclimate/...
   * new test, better readable tests
 
-* Production ready ?
+* **Production ready** ?
   * encoding
     * utf-8
   * exception logging
