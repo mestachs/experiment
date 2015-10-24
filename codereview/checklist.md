@@ -26,7 +26,7 @@
     * not too much mocks (god class under test)
     * good coverage (is my production code tested), 
     * good mutation coverage (do I have good asserts/tests)
-    * good data coverage (unicode, empty, null, multiline,... Integer.MAX - 1)
+    * good data coverage (unicode, long/short/various case/empty, null, multiline,... Integer.MAX - 1)
     * no ignored/commented test
     * no off-by-one errors (we often messup of 1 in index/ < vs <= /...)
   * no obvious bug : classcast, npe,...
@@ -43,7 +43,7 @@
 
 * **Better than before** ?
   * boyscout rule : "Always leave the campground cleaner than you found it."
-  * non regression or improvement in [sonar](http://www.sonarqube.org/), [PullReview](https://www.pullreview.com/) [CodeClimate](https://codeclimate.com/)/...
+  * non regression or improvement in [sonar](http://www.sonarqube.org/), [PullReview](https://www.pullreview.com/),  [CodeClimate](https://codeclimate.com/),...
   * new tests, better readable tests
 
 * **Production ready** ?
@@ -62,8 +62,8 @@
   * changelog/wiki/docker/ansible/... documentation/scripts updated
   * security
     * no clear vulnerabilities introduced or re-introduced
-  * load tested ?
+  * [load tested](https://speakerdeck.com/mestachs/gatling-load-testing-like-a-king) ?
     * resources leak (memory, connection, file descriptor, ...)
-    * race condition
+    * race condition, dead locks,...
     * performance
 
