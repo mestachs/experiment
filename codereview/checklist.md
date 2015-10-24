@@ -26,7 +26,7 @@
     * not too much mocks (god class under test)
     * coverage (is my production code tested), mutation coverage (do I have good asserts/tests)
     * no ignored/commented test
-    * off-by-one errors (we often messup of 1 in index/comparison/...)
+    * off-by-one errors (we often messup of 1 in index/ < cs <= /...)
   * no obvious bug : classcast, npe,...
   * efficient
     * select n+1, missing index,...
