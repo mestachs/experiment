@@ -7,11 +7,11 @@
   * squint test, single screen test
   * no commented/test/debug/todo code left
   * follow guidelines/best practices depending of the technology reviewed
-     * http://google.github.io/styleguide/javaguide.html use sonar to enforce most of them
-     * https://github.com/airbnb/javascript/blob/master/README.md
-     * http://lab.abhinayrathore.com/jquery-standards/
-     * https://mestachs.wordpress.com/2012/05/17/maven-best-practices/
-     * https://github.com/bbatsov/ruby-style-guide
+     * [Java](http://google.github.io/styleguide/javaguide.html) : use sonar to enforce most of them
+     * [Javascript](https://github.com/airbnb/javascript/blob/master/README.md)
+     * [JQuery](http://lab.abhinayrathore.com/jquery-standards/)
+     * [Maven](https://mestachs.wordpress.com/2012/05/17/maven-best-practices/)
+     * [Ruby](https://github.com/bbatsov/ruby-style-guide) (see rubocop or pullreview)
      * you should know when it's ok to deviate, tailor them for your team
   * Prefer coherence vs following blindly the current standard
      * if a code base is completly written with another standard (Service/Manager/Repository/Bean/Model/Presenter/Controller/Resources/…) stay in this standard, be coherent.
@@ -24,9 +24,11 @@
     * follow SetupExerciseVerifyTearDown
     * use assertj for meaningful error message
     * not too much mocks (god class under test)
-    * coverage (is my production code tested), mutation coverage (do I have good asserts/tests)
+    * good coverage (is my production code tested), 
+    * good mutation coverage (do I have good asserts/tests)
+    * good data coverage (unicode, empty, null, multiline,... Integer.MAX - 1)
     * no ignored/commented test
-    * off-by-one errors (we often messup of 1 in index/ < cs <= /...)
+    * no off-by-one errors (we often messup of 1 in index/ < vs <= /...)
   * no obvious bug : classcast, npe,...
   * efficient
     * select n+1, missing index,...
@@ -37,15 +39,16 @@
     * concise change, not too much extra/unrelated changes
     * what is actually trying to be achieved, does it need to be done and is there a better (maybe completely different) way to do it
   * no duplication : follow the “three strikes” rule
+  * no use of deprecated api
 
 * **Better than before** ?
   * boyscout rule : "Always leave the campground cleaner than you found it."
-  * non regression or improvement in sonar/pullreview/codeclimate/...
-  * new test, better readable tests
+  * non regression or improvement in [sonar](http://www.sonarqube.org/), [PullReview](https://www.pullreview.com/) [CodeClimate](https://codeclimate.com/)/...
+  * new tests, better readable tests
 
 * **Production ready** ?
   * encoding
-    * utf-8
+    * utf-8 everywhere !
   * exception logging with extra details
   * migration won't break (not null without default, too big table to update)
   * error handling :
