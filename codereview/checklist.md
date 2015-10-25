@@ -16,6 +16,9 @@
   * Prefer coherence vs following blindly the current standard
      * if a code base is completly written with another standard (Service/Manager/Repository/Bean/Model/Presenter/Controller/Resources/…) stay in this standard, be coherent.
      * If it’s really a pain plan with your team if it should really be migrated to new standard.
+  * Bug fix ? 
+     * Does it fix the root cause or only the symptom ? [5-Whys](https://en.wikipedia.org/wiki/5_Whys)
+     * Any other places where similar problems can arise ? (duplicated/similar usage pattern)
 
 * **Minimal and working solution** ?
   * to prove it's working the unit tests, integration tests should be updated
