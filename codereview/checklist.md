@@ -70,3 +70,10 @@
     * race condition, dead locks,...
     * performance
 
+more on the subject
+ * http://kevinlondon.com/2015/05/05/code-review-best-practices.html
+ * https://www.future-processing.pl/blog/another-code-review-best-practices/
+ * http://blogs.atlassian.com/2010/03/code_review_in_agile_teams_part_ii/
+ * http://blog.8thcolor.com/en/2014/04/5-reasons-you-are-not-doing-code-reviews/
+ * http://blog.8thcolor.com/en/2013/10/we-dont-have-time-for-code-reviews/
+ * http://smartbear.com/smartbear/media/pdfs/wp-cc-11-best-practices-of-peer-code-review.pdf
