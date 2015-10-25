@@ -24,7 +24,7 @@
     * follow [SetupExerciseVerifyTearDown](http://xunitpatterns.com/Four%20Phase%20Test.html)
     * use [assertj](http://joel-costigliola.github.io/assertj/) for meaningful error message
     * not too much mocks (god class under test)
-    * good coverage (is my production code tested), 
+    * good [coverage](http://eclemma.org/) (is my production code tested), 
     * good [mutation coverage](http://pitest.org/) (do I have good asserts/tests ?)
     * good data coverage (unicode, long/short/various case/empty, null, multiline,... Integer.MAX - 1)
     * no ignored/commented test
