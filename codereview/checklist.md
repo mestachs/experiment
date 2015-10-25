@@ -4,7 +4,7 @@
     * There are only two hard things in Computer Science: cache invalidation and naming things. -- Phil Karlton
     * if you can't find a name, it does perhaps too much
     * http://blog.codinghorror.com/code-smells/
-  * [squint test](http://robertheaton.com/2014/06/20/code-review-without-your-eyes/), [single screen test](https://mestachs.wordpress.com/2012/11/26/through-the-eyes-of-sonar-complexity/)
+  * [squint test](http://robertheaton.com/2014/06/20/code-review-without-your-eyes/) and [single screen test](https://mestachs.wordpress.com/2012/11/26/through-the-eyes-of-sonar-complexity/)
   * no commented/test/debug/todo code left
   * follow guidelines/best practices depending of the technology reviewed
      * [Java](http://google.github.io/styleguide/javaguide.html) : use sonar to [enforce most of them](https://mestachs.wordpress.com/2013/12/23/through-the-eyes-of-sonar-recap/)
