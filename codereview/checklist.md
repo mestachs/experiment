@@ -52,11 +52,12 @@
 * **Production ready** ?
   * encoding
     * utf-8 everywhere !
-  * exception logging with extra details
+
   * migration won't break (not null without default, too big table to update)
-  * error handling :
+  * [error handling](https://mestachs.wordpress.com/2012/10/10/through-the-eyes-of-sonar-exception-handling/) :
     * close resources in finally
     * don't expose sensitive information to caller
+    * exception logging with extra details
   * timeout, threadpool, connection pool : ideally adjustable
   * unexpected dependency (in WEB-INF/lib, Gemfile,...) ?
     * pom change, maven enforcer, pendantic pom enforcer
