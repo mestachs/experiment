@@ -9,7 +9,6 @@
   * follow guidelines/best practices depending of the technology reviewed
      * [Java](http://google.github.io/styleguide/javaguide.html) : use sonar to [enforce most of them](https://mestachs.wordpress.com/2013/12/23/through-the-eyes-of-sonar-recap/), [Maven](https://mestachs.wordpress.com/2012/05/17/maven-best-practices/)
      * [Javascript](https://github.com/airbnb/javascript/blob/master/README.md) : check [eslint](http://eslint.org/), [JQuery](http://lab.abhinayrathore.com/jquery-standards/), [React](https://github.com/airbnb/javascript/tree/master/react), [AngularJs](https://github.com/johnpapa/angular-styleguide#table-of-contents)
-    
      * [Ruby](https://github.com/bbatsov/ruby-style-guide) (see rubocop or pullreview)
      * you should know when it's ok to deviate, tailor them for your team
   * Prefer coherence vs following blindly the current standard
@@ -51,7 +50,6 @@
 * **Production ready** ?
   * encoding
     * utf-8 everywhere !
-
   * migration won't break (not null without default, too big table to update)
   * [error handling](https://mestachs.wordpress.com/2012/10/10/through-the-eyes-of-sonar-exception-handling/) :
     * close resources in finally
