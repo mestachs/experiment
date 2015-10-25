@@ -34,7 +34,7 @@
   * meets requirements
     * explicit : story and analysis
     * implicit : i18n, IE 8, ...
-  * impact the expected parts of the system
+  * impact the [expected parts](http://www.lornajane.net/posts/2015/code-reviews-before-you-even-run-the-code) of the system
     * concise change, not too much extra/unrelated changes
     * what is actually trying to be achieved, does it need to be done and is there a better (maybe completely different) way to do it
   * no duplication : follow the “three strikes” rule
@@ -72,6 +72,7 @@
 
 more on the subject
  * http://kevinlondon.com/2015/05/05/code-review-best-practices.html
+ * http://blog.codinghorror.com/code-reviews-just-do-it/
  * https://www.future-processing.pl/blog/another-code-review-best-practices/
  * http://blogs.atlassian.com/2010/03/code_review_in_agile_teams_part_ii/
  * http://blog.8thcolor.com/en/2014/04/5-reasons-you-are-not-doing-code-reviews/
