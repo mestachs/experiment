@@ -60,12 +60,12 @@
     * exception logging with extra details
   * timeout, threadpool, connection pool : ideally adjustable
   * unexpected dependency (in WEB-INF/lib, Gemfile,...) ?
-    * pom change, maven enforcer, pendantic pom enforcer
+    * pom change, [maven enforcer](https://maven.apache.org/enforcer/enforcer-rules/bannedDependencies.html), [pendantic pom enforcer](https://github.com/ferstl/pedantic-pom-enforcers#pedantic-pom-enforcers)
     * duplicate, new unnecessary jars, test jars, duplicated classes
     * http://tattletale.jboss.org/
   * changelog/wiki/docker/ansible/... documentation/scripts updated
   * [secure](https://speakerdeck.com/mestachs/betatech-security-for-dummies?slide=38)
-    * no clear vulnerabilities introduced or re-introduced
+    * no clear vulnerabilities introduced or re-introduced (in [your code](https://www.owasp.org/images/f/fa/Code_Review_Guide_Pre-AlphaV2_(1).pdf) or a [dependency](https://www.owasp.org/index.php/OWASP_Dependency_Check))
   * [load tested](https://speakerdeck.com/mestachs/gatling-load-testing-like-a-king) ?
     * resources leak (memory, connection, file descriptor, ...)
     * race condition, dead locks,...
