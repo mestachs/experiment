@@ -61,7 +61,7 @@
   * timeout, threadpool, connection pool : ideally adjustable
   * unexpected dependency (in WEB-INF/lib, Gemfile,...) ?
     * pom change, [maven enforcer](https://maven.apache.org/enforcer/enforcer-rules/bannedDependencies.html), [pendantic pom enforcer](https://github.com/ferstl/pedantic-pom-enforcers#pedantic-pom-enforcers)
-    * duplicate, new unnecessary jars, test jars, duplicated classes
+    * duplicate, new unnecessary jars, test jars, [duplicated classes](https://github.com/mestachs/archeo4j#archeo4j)
     * http://tattletale.jboss.org/
   * changelog/wiki/docker/ansible/... documentation/scripts updated
   * [secure](https://speakerdeck.com/mestachs/betatech-security-for-dummies?slide=38)
