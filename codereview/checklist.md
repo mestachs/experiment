@@ -7,10 +7,9 @@
   * [squint test](http://robertheaton.com/2014/06/20/code-review-without-your-eyes/) and [single screen test](https://mestachs.wordpress.com/2012/11/26/through-the-eyes-of-sonar-complexity/)
   * no commented/test/debug/todo code left
   * follow guidelines/best practices depending of the technology reviewed
-     * [Java](http://google.github.io/styleguide/javaguide.html) : use sonar to [enforce most of them](https://mestachs.wordpress.com/2013/12/23/through-the-eyes-of-sonar-recap/)
-     * [Javascript](https://github.com/airbnb/javascript/blob/master/README.md) : check [eslint](http://eslint.org/).
-     * [JQuery](http://lab.abhinayrathore.com/jquery-standards/)
-     * [Maven](https://mestachs.wordpress.com/2012/05/17/maven-best-practices/)
+     * [Java](http://google.github.io/styleguide/javaguide.html) : use sonar to [enforce most of them](https://mestachs.wordpress.com/2013/12/23/through-the-eyes-of-sonar-recap/), [Maven](https://mestachs.wordpress.com/2012/05/17/maven-best-practices/)
+     * [Javascript](https://github.com/airbnb/javascript/blob/master/README.md) : check [eslint](http://eslint.org/), [JQuery](http://lab.abhinayrathore.com/jquery-standards/), [React](https://github.com/airbnb/javascript/tree/master/react), [AngularJs](https://github.com/johnpapa/angular-styleguide#table-of-contents)
+    
      * [Ruby](https://github.com/bbatsov/ruby-style-guide) (see rubocop or pullreview)
      * you should know when it's ok to deviate, tailor them for your team
   * Prefer coherence vs following blindly the current standard
