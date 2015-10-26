@@ -75,4 +75,6 @@ more on the subject
  * http://blogs.atlassian.com/2010/03/code_review_in_agile_teams_part_ii/
  * http://blog.8thcolor.com/en/2014/04/5-reasons-you-are-not-doing-code-reviews/
  * http://blog.8thcolor.com/en/2013/10/we-dont-have-time-for-code-reviews/
+ * http://blog.fogcreek.com/increase-defect-detection-with-our-code-review-checklist-example/
  * http://smartbear.com/smartbear/media/pdfs/wp-cc-11-best-practices-of-peer-code-review.pdf
+ * https://gist.github.com/bwest87/10049924
