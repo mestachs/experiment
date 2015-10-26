@@ -69,6 +69,11 @@
   * changelog/wiki/docker/ansible/... documentation/scripts updated
   * [secure](https://speakerdeck.com/mestachs/betatech-security-for-dummies?slide=38)
     * no clear vulnerabilities introduced or re-introduced (in [your code](https://www.owasp.org/images/f/fa/Code_Review_Guide_Pre-AlphaV2_(1).pdf) or a [dependency](https://www.owasp.org/index.php/OWASP_Dependency_Check))
+    * prevent sql injection : PreparedStatement or ORM (no string concat)
+    * prevent xss : 
+      * escape user input in view rendering (c:out, fn:escapeXml, th:utext, html_safe)
+      * specify [http header](https://www.owasp.org/index.php/List_of_useful_HTTP_headers), don't inline your js
+    * improve security [awareness](http://www.ikangae.net/application-security/4-ways-to-improve-your-web-security/)
   * [load tested](https://speakerdeck.com/mestachs/gatling-load-testing-like-a-king) ?
     * resources leak (memory, connection, file descriptor, ...)
     * race condition, dead locks,...
