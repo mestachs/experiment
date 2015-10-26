@@ -74,6 +74,7 @@
       * escape user input in view rendering (c:out, fn:escapeXml, th:utext, html_safe)
       * specify [http header](https://www.owasp.org/index.php/List_of_useful_HTTP_headers), don't inline your js
     * improve security [awareness](http://www.ikangae.net/application-security/4-ways-to-improve-your-web-security/)
+    * what if non ascii [username](https://github.com/reinderien/mimic) [Adm|n](https://www.reddit.com/r/programming/comments/1gl0zn/a_security_hole_via_unicode_usernames/)
   * [load tested](https://speakerdeck.com/mestachs/gatling-load-testing-like-a-king) ?
     * resources leak (memory, connection, file descriptor, ...)
     * race condition, dead locks,...
