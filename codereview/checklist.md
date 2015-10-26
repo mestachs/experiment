@@ -36,7 +36,8 @@
   * impact the [expected parts](http://www.lornajane.net/posts/2015/code-reviews-before-you-even-run-the-code) of the system
     * concise change, not too much extra/unrelated changes
     * what is actually trying to be achieved, does it need to be done and is there a better (maybe completely different) way to do it
-  * Code smells ?
+  * [Code smells](http://blog.codinghorror.com/code-smells/) ?
+    * some of them are already detected at "readable" change.
     * no duplication : follow the “three strikes” rule
     * no use of deprecated api
   * Bug fix ? 
