@@ -36,11 +36,16 @@
   * impact the [expected parts](http://www.lornajane.net/posts/2015/code-reviews-before-you-even-run-the-code) of the system
     * concise change, not too much extra/unrelated changes
     * what is actually trying to be achieved, does it need to be done and is there a better (maybe completely different) way to do it
-  * no duplication : follow the “three strikes” rule
-  * no use of deprecated api
+  * Code smells ?
+    * no duplication : follow the “three strikes” rule
+    * no use of deprecated api
   * Bug fix ? 
      * Does it fix the root cause or only the symptom ? [5-Whys](https://en.wikipedia.org/wiki/5_Whys)
      * Any other places where similar problems can arise ? (duplicated/similar usage pattern)
+  * [DDD](http://www.infoq.com/minibooks/domain-driven-design-quickly) ? 
+     * mostly/completely immutable 
+     * [checkRep](http://www.pgbovine.net/programming-with-rep-invariants.htm)
+     * hexagonal architecture
 
 * **Better than before** ?
   * boyscout rule : "Always leave the campground cleaner than you found it."
