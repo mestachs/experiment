@@ -67,6 +67,7 @@
     * duplicate, new unnecessary jars, test jars, [duplicated classes](https://github.com/mestachs/archeo4j#archeo4j)
     * http://tattletale.jboss.org/
   * changelog/wiki/docker/ansible/... documentation/scripts updated
+    * log in changelog and increment semver if incompatible change in public api
   * [secure](https://speakerdeck.com/mestachs/betatech-security-for-dummies?slide=38)
     * no clear vulnerabilities introduced or re-introduced (in [your code](https://www.owasp.org/images/f/fa/Code_Review_Guide_Pre-AlphaV2_(1).pdf) or a [dependency](https://www.owasp.org/index.php/OWASP_Dependency_Check))
     * prevent sql injection : PreparedStatement or ORM (no string concat)
