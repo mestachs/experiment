@@ -37,6 +37,7 @@
     * concise change, not too much extra/unrelated changes
     * what is actually trying to be achieved, does it need to be done and is there a better (maybe completely different) way to do it
   * [Code smells](http://blog.codinghorror.com/code-smells/) ?
+    * put the code where it [belongs](https://speakerdeck.com/vanakenm/code-trails?slide=29)
     * some of them are already detected at "readable" change.
     * no duplication : follow the “three strikes” rule
     * no use of deprecated api
