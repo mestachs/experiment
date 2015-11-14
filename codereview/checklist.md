@@ -58,6 +58,7 @@
   * encoding
     * utf-8 everywhere !
   * migration won't break (not null without default, too big table to update)
+    * require a maintenance window, significant downtime ?
   * [error handling](https://mestachs.wordpress.com/2012/10/10/through-the-eyes-of-sonar-exception-handling/) :
     * close resources in finally
     * don't expose sensitive information to caller
@@ -92,3 +93,4 @@ more on the subject
  * http://blog.fogcreek.com/increase-defect-detection-with-our-code-review-checklist-example/
  * http://smartbear.com/smartbear/media/pdfs/wp-cc-11-best-practices-of-peer-code-review.pdf
  * https://gist.github.com/bwest87/10049924
+ * https://github.com/smartlogic/code-review-checklist
