@@ -45,7 +45,7 @@
      * Does it fix the root cause or only the symptom ? [5-Whys](https://en.wikipedia.org/wiki/5_Whys)
      * Any other places where similar problems can arise ? (duplicated/similar usage pattern)
   * [DDD](http://www.infoq.com/minibooks/domain-driven-design-quickly) ? 
-     * mostly/completely immutable 
+     * mostly/completely immutable, primitive obsession vs value objects
      * [checkRep](http://www.pgbovine.net/programming-with-rep-invariants.htm)
      * hexagonal architecture
 
@@ -95,3 +95,4 @@ more on the subject
  * https://gist.github.com/bwest87/10049924
  * https://github.com/smartlogic/code-review-checklist
  * http://www.evoketechnologies.com/blog/code-review-checklist-perform-effective-code-reviews/
+ * http://www.matthewjmiller.net/files/cc2e_checklists.pdf
