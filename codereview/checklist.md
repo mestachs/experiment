@@ -94,3 +94,4 @@ more on the subject
  * http://smartbear.com/smartbear/media/pdfs/wp-cc-11-best-practices-of-peer-code-review.pdf
  * https://gist.github.com/bwest87/10049924
  * https://github.com/smartlogic/code-review-checklist
+ * http://www.evoketechnologies.com/blog/code-review-checklist-perform-effective-code-reviews/
