@@ -96,3 +96,4 @@ more on the subject
  * https://github.com/smartlogic/code-review-checklist
  * http://www.evoketechnologies.com/blog/code-review-checklist-perform-effective-code-reviews/
  * http://www.matthewjmiller.net/files/cc2e_checklists.pdf
+ * https://www.youtube.com/watch?v=VRnMzMpSeag : How to stop wasting your time and start performing useful code reviews by Maria Khalusova
