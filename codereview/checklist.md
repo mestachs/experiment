@@ -84,7 +84,7 @@
     * race condition, dead locks,...
     * performance
   * legal compliance
-    * [privacy aspect](thttps://www.privacycommission.be/en) (Data protection and privacy ethical guidelines)
+    * [privacy aspect](https://www.privacycommission.be/en) (Data protection and privacy ethical guidelines)
     * open source license compatible with [commercial usage](http://stackoverflow.com/a/27867740/613936) ?
     * commercial support advised, needed ?
      
