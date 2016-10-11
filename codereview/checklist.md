@@ -1,6 +1,6 @@
 
 * **Readable and following standards** ?
-  * style, naming : variable/methods/class names
+  * style, [naming](http://arlobelshee.com/good-naming-is-a-process-not-a-single-step/) : variable/methods/class names
     * There are only two hard things in Computer Science: cache invalidation and naming things. -- Phil Karlton
     * if you can't find a name, it does perhaps too much
     * http://blog.codinghorror.com/code-smells/
@@ -83,7 +83,11 @@
     * resources leak (memory, connection, file descriptor, ...)
     * race condition, dead locks,...
     * performance
-
+  * legal compliance
+    * [privacy aspect](thttps://www.privacycommission.be/en) (Data protection and privacy ethical guidelines)
+    * open source license compatible with [commercial usage](http://stackoverflow.com/a/27867740/613936) ?
+    * commercial support advised, needed ?
+     
 more on the subject
  * http://kevinlondon.com/2015/05/05/code-review-best-practices.html
  * http://blog.codinghorror.com/code-reviews-just-do-it/
@@ -100,3 +104,4 @@ more on the subject
  * https://www.youtube.com/watch?v=VRnMzMpSeag : How to stop wasting your time and start performing useful code reviews by Maria Khalusova
  * http://www.techrepublic.com/article/developers-guide-to-peer-reviews/
  * http://www.daedtech.com/creating-code-review-checklist/
+ * http://verraes.net/2013/10/pre-merge-code-reviews/
