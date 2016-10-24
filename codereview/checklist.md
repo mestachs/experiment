@@ -48,7 +48,13 @@
      * mostly/completely immutable, primitive obsession vs value objects
      * [checkRep](http://www.pgbovine.net/programming-with-rep-invariants.htm)
      * hexagonal architecture
-
+  * Don't assume the earth is flat
+     * network : http://blog.erratasec.com/2012/06/falsehoods-programmers-believe-about.html#.WA3ZC9WLRhG
+     * time : http://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time 
+     * address : https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/
+     * geography : http://wiesmann.codiferes.net/wordpress/?p=15187
+     * gis : http://www.atlefren.net/post/2014/09/falsehoods-programmers-believe-about-maps/
+     
 * **Better than before** ?
   * boyscout rule : "Always leave the campground cleaner than you found it."
   * non regression or improvement in [SonarQube](http://www.sonarqube.org/), [PullReview](https://www.pullreview.com/),  [CodeClimate](https://codeclimate.com/),...
