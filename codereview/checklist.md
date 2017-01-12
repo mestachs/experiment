@@ -85,6 +85,7 @@
     * improve security [awareness](http://www.ikangae.net/application-security/4-ways-to-improve-your-web-security/)
     * what if non ascii [username](https://github.com/reinderien/mimic) [Adm|n](https://www.reddit.com/r/programming/comments/1gl0zn/a_security_hole_via_unicode_usernames/)
     * [safe crypto usage ?](https://gist.github.com/paragonie-scott/e9319254c8ecbad4f227)
+    * https://github.com/eliotsykes/rails-security-checklist
   * [load tested](https://speakerdeck.com/mestachs/gatling-load-testing-like-a-king) ?
     * resources leak (memory, connection, file descriptor, ...)
     * race condition, dead locks,...
