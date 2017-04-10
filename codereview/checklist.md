@@ -112,3 +112,4 @@ more on the subject
  * http://www.techrepublic.com/article/developers-guide-to-peer-reviews/
  * http://www.daedtech.com/creating-code-review-checklist/
  * http://verraes.net/2013/10/pre-merge-code-reviews/
+ * http://www.savvyclutch.com/process/Make-Code-Review-Useful-Again/
