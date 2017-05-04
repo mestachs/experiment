@@ -115,3 +115,4 @@ more on the subject
  * http://www.savvyclutch.com/process/Make-Code-Review-Useful-Again/
  * https://github.com/brunofacca/zen-rails-security-checklist
  * https://sudo.isl.co/what-you-should-bring-to-a-code-review/ AMOP
+ * https://medium.com/@vaidehijoshi/crafting-better-code-reviews-1a5fc00a9312
