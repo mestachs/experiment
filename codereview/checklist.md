@@ -114,3 +114,4 @@ more on the subject
  * http://verraes.net/2013/10/pre-merge-code-reviews/
  * http://www.savvyclutch.com/process/Make-Code-Review-Useful-Again/
  * https://github.com/brunofacca/zen-rails-security-checklist
+ * https://sudo.isl.co/what-you-should-bring-to-a-code-review/ AMOP
