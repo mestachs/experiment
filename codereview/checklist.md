@@ -70,6 +70,7 @@
     * don't expose sensitive information to caller
     * exception logging with extra details
   * timeout, threadpool, connection pool : ideally adjustable
+  * configuration is externalized and flexible with sensitive defaults and fail fast if bad config
   * unexpected dependency (in WEB-INF/lib, Gemfile,...) ?
     * pom change, [maven enforcer](https://maven.apache.org/enforcer/enforcer-rules/bannedDependencies.html), [pendantic pom enforcer](https://github.com/ferstl/pedantic-pom-enforcers#pedantic-pom-enforcers)
     * duplicate, new unnecessary jars, test jars, [duplicated classes](https://github.com/mestachs/archeo4j#archeo4j)
@@ -116,3 +117,4 @@ more on the subject
  * https://github.com/brunofacca/zen-rails-security-checklist
  * https://sudo.isl.co/what-you-should-bring-to-a-code-review/ AMOP
  * https://medium.com/@vaidehijoshi/crafting-better-code-reviews-1a5fc00a9312
+ * http://insights.dice.com/2012/10/31/whats-on-my-code-review-checklist/
