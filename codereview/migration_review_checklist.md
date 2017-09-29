@@ -5,9 +5,12 @@ after generating the migration ask your self
    * foreign key ?
    * uniqueness ?
    * index ?
-   * don't use the directly app/model but embeds the needed models in the migration
+   * don't use the directly app/model but a [least embed the needed models](https://railsguides.net/change-data-in-migrations-like-a-boss/) in the migration
+   * if migrating data : [performance, memory efficiency](http://api.rubyonrails.org/classes/ActiveRecord/Batches.html)
+   
    
 during development is my db consistent with my model (or review)
    * nullalign: https://thomasleecopeland.com/2017/09/28/announcing-nullalign.html
    * foreignkeys: https://github.com/jenseng/immigrant
    * consistency_fail: https://8thlight.com/blog/colin-jones/2011/06/10/winning-at-consistency.html
+   * https://github.com/ankane/strong_migrations
