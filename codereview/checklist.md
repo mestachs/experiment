@@ -65,6 +65,7 @@
     * utf-8 everywhere !
   * migration won't break (not null without default, too big table to update)
     * require a maintenance window, significant downtime ?
+    * https://github.com/mestachs/experiment/blob/master/codereview/migration_review_checklist.md
   * [error handling](https://mestachs.wordpress.com/2012/10/10/through-the-eyes-of-sonar-exception-handling/) :
     * close resources in finally
     * don't expose sensitive information to caller
