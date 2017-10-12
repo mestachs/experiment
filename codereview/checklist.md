@@ -120,3 +120,4 @@ more on the subject
  * https://medium.com/@vaidehijoshi/crafting-better-code-reviews-1a5fc00a9312
  * http://insights.dice.com/2012/10/31/whats-on-my-code-review-checklist/
  * https://mtlynch.io/human-code-reviews-1/
+ * http://www.processimpact.com/articles/humanizing_reviews.html
