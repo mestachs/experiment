@@ -1,6 +1,6 @@
 
 * **Readable and following standards** ?
-  * style, [naming](http://arlobelshee.com/good-naming-is-a-process-not-a-single-step/) : variable/methods/class names
+  * style (ideally automated), [naming](http://arlobelshee.com/good-naming-is-a-process-not-a-single-step/) : variable/methods/class names
     * There are only two hard things in Computer Science: cache invalidation and naming things. -- Phil Karlton
     * if you can't find a name, it does perhaps too much
     * http://blog.codinghorror.com/code-smells/
@@ -119,3 +119,4 @@ more on the subject
  * https://sudo.isl.co/what-you-should-bring-to-a-code-review/ AMOP
  * https://medium.com/@vaidehijoshi/crafting-better-code-reviews-1a5fc00a9312
  * http://insights.dice.com/2012/10/31/whats-on-my-code-review-checklist/
+ * https://mtlynch.io/human-code-reviews-1/
