@@ -14,3 +14,4 @@ during development is my db consistent with my model (or review)
    * foreignkeys: https://github.com/jenseng/immigrant
    * consistency_fail: https://8thlight.com/blog/colin-jones/2011/06/10/winning-at-consistency.html
    * my migration won't impose too much downtime : https://github.com/ankane/strong_migrations
+   * need extra indexes ? https://github.com/plentz/lol_dba
