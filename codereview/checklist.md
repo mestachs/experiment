@@ -122,3 +122,4 @@ more on the subject
  * http://insights.dice.com/2012/10/31/whats-on-my-code-review-checklist/
  * https://mtlynch.io/human-code-reviews-1/
  * http://www.processimpact.com/articles/humanizing_reviews.html
+ * https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/
