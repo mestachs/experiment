@@ -123,3 +123,4 @@ more on the subject
  * https://mtlynch.io/human-code-reviews-1/
  * http://www.processimpact.com/articles/humanizing_reviews.html
  * https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/
+ * https://google.github.io/eng-practices/review/reviewer/
