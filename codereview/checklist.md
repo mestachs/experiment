@@ -54,6 +54,7 @@
      * address : https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/
      * geography : http://wiesmann.codiferes.net/wordpress/?p=15187
      * gis : http://www.atlefren.net/post/2014/09/falsehoods-programmers-believe-about-maps/
+     * plenty of other falsehoods : https://github.com/kdeldycke/awesome-falsehood
      
 * **Better than before** ?
   * boyscout rule : "Always leave the campground cleaner than you found it."
