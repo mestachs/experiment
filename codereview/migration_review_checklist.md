@@ -5,7 +5,7 @@ after generating the migration ask your self
    * foreign key ? https://github.com/jenseng/immigrant
    * uniqueness ?
    * index ?
-   * don't use the directly app/model but a [least embed the needed models](https://railsguides.net/change-data-in-migrations-like-a-boss/) in the migration
+   * don't use directly app/model but a [least embed the needed models](https://railsguides.net/change-data-in-migrations-like-a-boss/) in the migration
    * if migrating data : [performance, memory efficiency](http://api.rubyonrails.org/classes/ActiveRecord/Batches.html)
    
 during development is my db consistent with my model (or review)
