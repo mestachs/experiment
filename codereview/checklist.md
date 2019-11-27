@@ -126,3 +126,4 @@ more on the subject
  * https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/
  * https://google.github.io/eng-practices/review/reviewer/
  * https://testing.googleblog.com/2019/11/code-health-respectful-reviews-useful.html
+ * https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html
