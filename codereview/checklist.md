@@ -39,7 +39,7 @@
   * [Code smells](http://blog.codinghorror.com/code-smells/) ?
     * put the code where it [belongs](https://speakerdeck.com/vanakenm/code-trails?slide=29)
     * some of them are already detected at "readable" change.
-    * no duplication : follow the “three strikes” rule
+    * no duplication : follow the [“three strikes”](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)) rule
     * no use of deprecated api
   * Bug fix ? 
      * Does it fix the root cause or only the symptom ? [5-Whys](https://en.wikipedia.org/wiki/5_Whys)
