@@ -1,6 +1,7 @@
 
 * **Readable and following standards** ?
   * style (ideally automated), [naming](http://arlobelshee.com/good-naming-is-a-process-not-a-single-step/) : variable/methods/class names
+    * for basic stuff like [formatting](https://twitter.com/jpetazzo/status/1359611525246443521?s=20) : just use a linter/code formatter like [gofmt](https://golang.org/cmd/gofmt/), [prettier](https://prettier.io/), [black](https://black.readthedocs.io/en/stable/) ideally triggered at commit time.
     * There are only two hard things in Computer Science: cache invalidation and naming things. -- Phil Karlton
     * if you can't find a name, it does perhaps too much
     * http://blog.codinghorror.com/code-smells/
