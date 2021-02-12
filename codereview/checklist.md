@@ -33,7 +33,8 @@
     * select n+1, missing index,...
   * meets requirements
     * explicit : story and analysis
-    * implicit : i18n, IE 8, ...
+    * implicit : i18n, IE 8, ... 
+    * works with an ad-blocker enabled (don't use ad/ads or analytics in url domain/path)
   * impact the [expected parts](http://www.lornajane.net/posts/2015/code-reviews-before-you-even-run-the-code) of the system
     * concise change, not too much extra/unrelated changes
     * what is actually trying to be achieved, does it need to be done and is there a better (maybe completely different) way to do it
