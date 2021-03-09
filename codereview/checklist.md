@@ -101,6 +101,7 @@
     * commercial support advised, needed ?
      
 more on the subject
+ * Starts the review with something positive : "Good job, will help with maintenance", "Nice, this will be useful", "Thanks for the coverage effort"
  * http://kevinlondon.com/2015/05/05/code-review-best-practices.html
  * http://blog.codinghorror.com/code-reviews-just-do-it/
  * https://www.future-processing.pl/blog/another-code-review-best-practices/
