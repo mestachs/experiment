@@ -131,3 +131,4 @@ more on the subject
  * https://testing.googleblog.com/2019/11/code-health-respectful-reviews-useful.html
  * https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html
  * https://hackernoon.com/5-critical-topics-covered-at-once-code-review-practises-you-cannot-miss-kgm337k
+ * https://twitter.com/MorganGeek/status/1399999723126378503?s=20
