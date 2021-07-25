@@ -1,3 +1,4 @@
+[Best viewed via checkl](https://mestachs.github.io/checkl/?markdown=https://github.com/mestachs/experiment/blob/master/codereview/checklist.md)
 
 # Readable and following standards ?
 
