@@ -78,11 +78,10 @@
   * new tests, better readable tests
 
 # Production ready
+
+## Robust
   * encoding
     * utf-8 everywhere !
-  * migration won't break (not null without default, too big table to update)
-    * require a maintenance window, significant downtime ?
-    * https://github.com/mestachs/experiment/blob/master/codereview/migration_review_checklist.md
   * [error handling](https://mestachs.wordpress.com/2012/10/10/through-the-eyes-of-sonar-exception-handling/) :
     * close resources in finally
     * don't expose sensitive information to caller
@@ -94,9 +93,18 @@
     * duplicate, new unnecessary jars, test jars, [duplicated classes](https://github.com/mestachs/archeo4j#archeo4j)
     * http://tattletale.jboss.org/
   * changelog/wiki/docker/ansible/... documentation/scripts updated
-    * log in changelog and increment semver if incompatible change in public api
-  * [secure](https://speakerdeck.com/mestachs/betatech-security-for-dummies?slide=38)
-    * no clear vulnerabilities introduced or re-introduced (in [your code](https://www.owasp.org/images/f/fa/Code_Review_Guide_Pre-AlphaV2_(1).pdf) or a [dependency](https://www.owasp.org/index.php/OWASP_Dependency_Check))
+    * log in changelog and increment semver if incompatible change in public api    
+  * DB migration won't break (not null without default, too big table to update)
+    * require a maintenance window, significant downtime ?
+    * https://github.com/mestachs/experiment/blob/master/codereview/migration_review_checklist.md
+  * [load tested](https://speakerdeck.com/mestachs/gatling-load-testing-like-a-king) ?
+    * resources leak (memory, connection, file descriptor, ...)
+    * race condition, dead locks,...
+    * performance
+ 
+## [Secure](https://speakerdeck.com/mestachs/betatech-security-for-dummies?slide=38)
+
+  * no clear vulnerabilities introduced or re-introduced (in [your code](https://www.owasp.org/images/f/fa/Code_Review_Guide_Pre-AlphaV2_(1).pdf) or a [dependency](https://www.owasp.org/index.php/OWASP_Dependency_Check))
     * prevent sql injection : PreparedStatement or ORM (no string concat)
     * prevent xss : 
       * escape user input in view rendering (c:out, fn:escapeXml, th:utext, html_safe)
@@ -105,10 +113,8 @@
     * what if non ascii [username](https://github.com/reinderien/mimic) [Adm|n](https://www.reddit.com/r/programming/comments/1gl0zn/a_security_hole_via_unicode_usernames/)
     * [safe crypto usage ?](https://gist.github.com/paragonie-scott/e9319254c8ecbad4f227)
     * https://github.com/eliotsykes/rails-security-checklist
-  * [load tested](https://speakerdeck.com/mestachs/gatling-load-testing-like-a-king) ?
-    * resources leak (memory, connection, file descriptor, ...)
-    * race condition, dead locks,...
-    * performance
+ 
+## Compliant 
   * legal compliance
     * [privacy aspect](https://www.privacycommission.be/en) (Data protection and privacy ethical guidelines)
     * open source license compatible with [commercial usage](http://stackoverflow.com/a/27867740/613936) ?
