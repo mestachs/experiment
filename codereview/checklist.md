@@ -1,5 +1,5 @@
 
-* **Readable and following standards** ?
+# Readable and following standards ?
   * style (ideally automated), [naming](http://arlobelshee.com/good-naming-is-a-process-not-a-single-step/) : variable/methods/class names
     * for basic stuff like [formatting](https://twitter.com/jpetazzo/status/1359611525246443521?s=20) : just use a linter/code formatter like [gofmt](https://golang.org/cmd/gofmt/), [prettier](https://prettier.io/), [black](https://black.readthedocs.io/en/stable/) ideally triggered at commit time.
     * There are only two hard things in Computer Science: cache invalidation and naming things. -- Phil Karlton
@@ -16,18 +16,21 @@
      * if a code base is completly written with another standard (Service/Manager/Repository/Bean/Model/Presenter/Controller/Resources/…) stay in this standard, be coherent.
      * If it’s really a pain plan with your team if it should really be migrated to new standard.
 
-* **Minimal and working solution** ?
-  * to prove it's working the unit tests, integration tests should be updated
-    * test at the right level
-    * self contained, short, independent
-    * follow [SetupExerciseVerifyTearDown](http://xunitpatterns.com/Four%20Phase%20Test.html)
-    * use [assertj](http://joel-costigliola.github.io/assertj/) for meaningful error message
-    * not too much mocks (god class under test)
-    * good [coverage](http://eclemma.org/) (is my production code tested), 
-    * good [mutation coverage](http://pitest.org/) (do I have good asserts/tests ?)
-    * good data coverage (unicode, long/short/various case/empty, null, multiline,... Integer.MAX - 1)
-    * no ignored/commented test
-    * no off-by-one errors (we often messup of 1 in index/ < vs <= /...)
+# Minimal and working solution
+
+## To prove it's working the unit tests, integration tests should be updated
+  * test at the right level
+  * self contained, short, independent
+  * follow [SetupExerciseVerifyTearDown](http://xunitpatterns.com/Four%20Phase%20Test.html)
+  * use [assertj](http://joel-costigliola.github.io/assertj/) for meaningful error message
+  * not too much mocks (god class under test)
+  * good [coverage](http://eclemma.org/) (is my production code tested), 
+  * good [mutation coverage](http://pitest.org/) (do I have good asserts/tests ?)
+  * good data coverage (unicode, long/short/various case/empty, null, multiline,... Integer.MAX - 1)
+  * no ignored/commented test
+  * no off-by-one errors (we often messup of 1 in index/ < vs <= /...)
+ 
+## Working
   * no obvious bug : classcast, npe,...
   * efficient
     * select n+1, missing index,...
@@ -35,10 +38,15 @@
     * explicit : story and analysis
     * implicit : i18n, IE 8, ... 
     * works with an ad-blocker enabled (don't use ad/ads or analytics in url domain/path)
-  * impact the [expected parts](http://www.lornajane.net/posts/2015/code-reviews-before-you-even-run-the-code) of the system
-    * concise change, not too much extra/unrelated changes
-    * what is actually trying to be achieved, does it need to be done and is there a better (maybe completely different) way to do it
-  * [Code smells](http://blog.codinghorror.com/code-smells/) ?
+
+## Impact the [expected parts](http://www.lornajane.net/posts/2015/code-reviews-before-you-even-run-the-code) of the system
+
+ * concise change, not too much extra/unrelated changes
+ * what is actually trying to be achieved, does it need to be done and is there a better (maybe completely different) way to do it
+
+## Extra 
+
+ * [Code smells](http://blog.codinghorror.com/code-smells/) ?
     * put the code where it [belongs](https://speakerdeck.com/vanakenm/code-trails?slide=29)
     * some of them are already detected at "readable" change.
     * no duplication : follow the [“three strikes”](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)) rule
@@ -58,12 +66,12 @@
      * gis : http://www.atlefren.net/post/2014/09/falsehoods-programmers-believe-about-maps/
      * plenty of other falsehoods : https://github.com/kdeldycke/awesome-falsehood
      
-* **Better than before** ?
+# Better than before
   * boyscout rule : "Always leave the campground cleaner than you found it."
   * non regression or improvement in [SonarQube](http://www.sonarqube.org/), [PullReview](https://www.pullreview.com/),  [CodeClimate](https://codeclimate.com/),...
   * new tests, better readable tests
 
-* **Production ready** ?
+# Production ready
   * encoding
     * utf-8 everywhere !
   * migration won't break (not null without default, too big table to update)
@@ -100,15 +108,14 @@
     * open source license compatible with [commercial usage](http://stackoverflow.com/a/27867740/613936) ?
     * commercial support advised, needed ?
      
-more on the subject
+# more on the subject
  * Starts the review with something positive : "Good job, will help with maintenance", "Nice, this will be useful", "Thanks for the coverage effort"
  * http://kevinlondon.com/2015/05/05/code-review-best-practices.html
  * http://blog.codinghorror.com/code-reviews-just-do-it/
  * https://www.future-processing.pl/blog/another-code-review-best-practices/
  * http://blogs.atlassian.com/2010/03/code_review_in_agile_teams_part_ii/
  * http://blog.8thcolor.com/en/2014/04/5-reasons-you-are-not-doing-code-reviews/
- * http://blog.8thcolor.com/en/2013/10/we-dont-have-
- -for-code-reviews/
+ * http://blog.8thcolor.com/en/2013/10/we-dont-have-time-for-code-reviews/
  * http://blog.fogcreek.com/increase-defect-detection-with-our-code-review-checklist-example/
  * http://smartbear.com/smartbear/media/pdfs/wp-cc-11-best-practices-of-peer-code-review.pdf
  * https://gist.github.com/bwest87/10049924
