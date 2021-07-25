@@ -1,5 +1,8 @@
 
 # Readable and following standards ?
+
+## Following style and readable
+
   * style (ideally automated), [naming](http://arlobelshee.com/good-naming-is-a-process-not-a-single-step/) : variable/methods/class names
     * for basic stuff like [formatting](https://twitter.com/jpetazzo/status/1359611525246443521?s=20) : just use a linter/code formatter like [gofmt](https://golang.org/cmd/gofmt/), [prettier](https://prettier.io/), [black](https://black.readthedocs.io/en/stable/) ideally triggered at commit time.
     * There are only two hard things in Computer Science: cache invalidation and naming things. -- Phil Karlton
@@ -7,7 +10,9 @@
     * http://blog.codinghorror.com/code-smells/
   * [squint test](http://robertheaton.com/2014/06/20/code-review-without-your-eyes/) and [single screen test](https://mestachs.wordpress.com/2012/11/26/through-the-eyes-of-sonar-complexity/)
   * no commented/test/debug/todo code left
-  * follow guidelines/best practices depending of the technology reviewed
+ 
+ ## Following guidelines/best practices depending of the technology reviewed
+   * example : 
      * [Java](http://google.github.io/styleguide/javaguide.html) : use sonar to [enforce most of them](https://mestachs.wordpress.com/2013/12/23/through-the-eyes-of-sonar-recap/), [Maven](https://mestachs.wordpress.com/2012/05/17/maven-best-practices/)
      * [Javascript](https://github.com/airbnb/javascript/blob/master/README.md) : check [eslint](http://eslint.org/), [JQuery](http://lab.abhinayrathore.com/jquery-standards/), [React](https://github.com/airbnb/javascript/tree/master/react), [AngularJs](https://github.com/johnpapa/angular-styleguide#table-of-contents)
      * [Ruby](https://github.com/bbatsov/ruby-style-guide) (see rubocop or pullreview)
@@ -30,7 +35,7 @@
   * no ignored/commented test
   * no off-by-one errors (we often messup of 1 in index/ < vs <= /...)
  
-## Working
+## Non buggy and not naive
   * no obvious bug : classcast, npe,...
   * efficient
     * select n+1, missing index,...
@@ -38,6 +43,13 @@
     * explicit : story and analysis
     * implicit : i18n, IE 8, ... 
     * works with an ad-blocker enabled (don't use ad/ads or analytics in url domain/path)
+  * Don't assume the earth is flat
+     * network : http://blog.erratasec.com/2012/06/falsehoods-programmers-believe-about.html#.WA3ZC9WLRhG
+     * time : [falsehoods](http://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time) and fallacyis(http://yourcalendricalfallacyis.com/), [utc is enough for everyone right ?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
+     * address : https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/
+     * geography : http://wiesmann.codiferes.net/wordpress/?p=15187
+     * gis : http://www.atlefren.net/post/2014/09/falsehoods-programmers-believe-about-maps/
+     * plenty of other falsehoods : https://github.com/kdeldycke/awesome-falsehood
 
 ## Impact the [expected parts](http://www.lornajane.net/posts/2015/code-reviews-before-you-even-run-the-code) of the system
 
@@ -58,13 +70,7 @@
      * mostly/completely immutable, primitive obsession vs value objects
      * [checkRep](http://www.pgbovine.net/programming-with-rep-invariants.htm)
      * hexagonal architecture
-  * Don't assume the earth is flat
-     * network : http://blog.erratasec.com/2012/06/falsehoods-programmers-believe-about.html#.WA3ZC9WLRhG
-     * time : [falsehoods](http://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time) and fallacyis(http://yourcalendricalfallacyis.com/), [utc is enough for everyone right ?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
-     * address : https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/
-     * geography : http://wiesmann.codiferes.net/wordpress/?p=15187
-     * gis : http://www.atlefren.net/post/2014/09/falsehoods-programmers-believe-about-maps/
-     * plenty of other falsehoods : https://github.com/kdeldycke/awesome-falsehood
+
      
 # Better than before
   * boyscout rule : "Always leave the campground cleaner than you found it."
