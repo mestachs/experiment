@@ -153,3 +153,4 @@
  * https://hackernoon.com/5-critical-topics-covered-at-once-code-review-practises-you-cannot-miss-kgm337k
  * https://twitter.com/MorganGeek/status/1399999723126378503?s=20
  * https://www.pluralsight.com/blog/tutorials/code-review?minimal=true
+ * https://hugodias.substack.com/p/code-review
