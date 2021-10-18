@@ -154,3 +154,6 @@
  * https://twitter.com/MorganGeek/status/1399999723126378503?s=20
  * https://www.pluralsight.com/blog/tutorials/code-review?minimal=true
  * https://hugodias.substack.com/p/code-review
+
+![image](https://user-images.githubusercontent.com/371692/137773212-be9faa22-0626-41a1-a8d7-71d44c40aa69.png)
+
