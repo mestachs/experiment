@@ -154,6 +154,8 @@
  * https://twitter.com/MorganGeek/status/1399999723126378503?s=20
  * https://www.pluralsight.com/blog/tutorials/code-review?minimal=true
  * https://hugodias.substack.com/p/code-review
+ * https://mrjoelkemp.medium.com/giving-better-code-reviews-16109e0fdd36
+ * https://stackoverflow.blog/2021/10/18/code-quality-a-concern-for-businesses-bottom-lines-and-empathetic-programmers/
 
 ![image](https://user-images.githubusercontent.com/371692/137773212-be9faa22-0626-41a1-a8d7-71d44c40aa69.png)
 
