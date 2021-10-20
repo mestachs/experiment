@@ -121,7 +121,7 @@
     * open source license compatible with [commercial usage](http://stackoverflow.com/a/27867740/613936) ?
     * commercial support advised, needed ?
      
-# more on the subject
+# More on the subject
  * Starts the review with something positive : "Good job, will help with maintenance", "Nice, this will be useful", "Thanks for the coverage effort"
  * http://kevinlondon.com/2015/05/05/code-review-best-practices.html
  * http://blog.codinghorror.com/code-reviews-just-do-it/
