@@ -1,6 +1,8 @@
 
 # after generating the migration ask your self 
    * avoid reserved key words (`select * from pg_get_keywords()` or [sql-keywords-appendix](https://www.postgresql.org/docs/current/sql-keywords-appendix.html)
+      * I know escaping is possible... but does it worth the hassle if just changing the name at designed time is easier
+      * check also names in your programming languages (class vs klazz, set)
    * null: false ?
    * default value (specialy for boolean)
    * foreign key ? https://github.com/jenseng/immigrant
