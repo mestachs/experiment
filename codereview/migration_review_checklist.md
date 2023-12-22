@@ -1,5 +1,6 @@
 
 # after generating the migration ask your self 
+   * avoid reserved key words (`select * from pg_get_keywords()` or [sql-keywords-appendix](https://www.postgresql.org/docs/current/sql-keywords-appendix.html)
    * null: false ?
    * default value (specialy for boolean)
    * foreign key ? https://github.com/jenseng/immigrant
