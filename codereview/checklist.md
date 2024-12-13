@@ -161,4 +161,4 @@
  * https://blackentropy.com/your-pr-process-is-killing-morale-and-productivity/
  *  
 ![image](https://user-images.githubusercontent.com/371692/137773212-be9faa22-0626-41a1-a8d7-71d44c40aa69.png)
-
+ * https://www.codereviewchecklist.com/
